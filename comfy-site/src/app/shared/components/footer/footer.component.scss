@@ -1,0 +1,14 @@
+.footer-container { 
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+
+    .footer-banner {
+        margin-left: auto;
+    }
+
+    label.footer-message {
+        font-size: 40px;
+        align-self: center;
+    }
+}

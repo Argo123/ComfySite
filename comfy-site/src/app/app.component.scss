@@ -1,0 +1,18 @@
+.app {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    height: 100vh;
+
+    .app-container {
+        display: grid;
+        margin: 20px 0px;
+        grid-template-columns: 1fr 1fr 1fr;
+        align-items: center;
+    }
+
+    comfy-footer {
+        position: absolute;
+        bottom: 0;
+        width: 100%;
+    }
+}

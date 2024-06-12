@@ -1,0 +1,9 @@
+<div class="app">
+    <comfy-header [title]="'ComfySite'" [colorChangedObservable$]="colorChangedObservable$"></comfy-header>
+    <div class="app-container">
+        <div></div>
+        <comfy-color-form (colorChanged)="colorChanged($event)"></comfy-color-form>
+        <div></div>
+    </div>
+    <comfy-footer [footerMessage]="'JustAPreview'" [colorChangedObservable$]="colorChangedObservable$"></comfy-footer>
+</div>

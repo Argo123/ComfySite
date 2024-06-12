@@ -1,0 +1,28 @@
+.form-container {
+    text-align: center;
+
+    button {
+        height: 150px;
+        width: 200px;
+        border: none;
+        font-size: 25px;
+        background-color: var(--primaryColor);
+        transition: 0.3s;
+    }
+
+    button:hover {
+        cursor: pointer;
+        background-color: var(--secondaryColor);
+    }
+
+    .source-input {
+        margin-top: 5px;
+        display: flex;
+        gap: 5px;
+        justify-content: center;
+
+        input {
+            margin-top: 1px;
+        }
+    }
+}

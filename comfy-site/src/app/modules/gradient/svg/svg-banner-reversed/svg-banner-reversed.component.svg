@@ -1,0 +1,22 @@
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 20010904//EN"
+ "http://www.w3.org/TR/2001/REC-SVG-20010904/DTD/svg10.dtd">
+
+ <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
+ width="812.000000pt" height="150.000000pt" viewBox="0 0 812.000000 150.000000"
+ preserveAspectRatio="xMidYMid meet">
+
+    <g transform="translate(0.000000,150.000000) scale(0.100000,-0.100000)" stroke="none">
+        <path 
+            d="M20 1998 c1 -2 121 -451 268 -998 l267 -995 154 -3 c121 -2 152 0 149 10 -3 7 -124 457 -269 1000 l-264 988 -152 0 c-84 0 -153 -1 -153 -2z"
+            [@gradientTransition]="{ value: animationState, params: { oldColor: previousGradient?.tertiaryColor, newColor: gradient.tertiaryColor } }"
+        />
+        <path 
+            d="M766 1948 c8 -29 129 -478 268 -998 l253 -945 325 -3 325 -2 -258 962 c-142 530 -263 980 -269 1001 l-11 37 -324 0 -324 0 15 -52z"
+            [@gradientTransition]="{ value: animationState, params: { oldColor: previousGradient?.secondaryColor, newColor: gradient.secondaryColor } }"
+        />
+        <path 
+            d="M1851 1853 c21 -82 141 -530 267 -998 l228 -850 2887 -3 2887 -2 0 1000 0 1000 -3154 0 -3154 0 39 -147z"
+            [@gradientTransition]="{ value: animationState, params: { oldColor: previousGradient?.baseColor, newColor: gradient.baseColor } }"
+        />
+    </g>
+</svg>

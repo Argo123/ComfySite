@@ -1,0 +1,20 @@
+<div class="form-container">
+    <button 
+        [style.--primaryColor]="gradient.baseColor"
+        [style.--secondaryColor]="gradient.secondaryColor"
+        (click)="getColorButtonClick()" 
+    >
+        {{ 'GetColor' }}
+    </button>
+    <div class="source-input">
+        <input
+            [ngStyle]="{ 'accentColor': gradient.baseColor }"
+            [type]="'radio'"
+            [checked]="isApiSourceSelected"
+            (click)="changeColorSource()"
+        />
+        <label>
+            Use ColorMicroservice as source
+        </label>
+    </div>
+</div>
